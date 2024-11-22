@@ -1,0 +1,17 @@
+{
+  "name": "priv-ai",
+  "version": "1.0.0",
+  "description": "PrivAI is a Chrome extension powered by Gemini AI that detects and summarizes privacy policies, terms, and cookie agreements. It provides concise, understandable explanations and flags potential risks, empowering users to make informed decisions about their data privacy.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gemini"
+  ],
+  "author": "Kenechukwu Akubue",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-types": "^0.1.321"
+  }
+}
