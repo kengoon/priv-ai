@@ -3,7 +3,7 @@
     "name": "PrivAI Detector",
     "version": "1.0",
     "description": "Detects privacy policies and terms and conditions on webpages.",
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "scripting", "offscreen"],
     "action": {
       "default_popup": "popup.html"
       
@@ -14,7 +14,7 @@
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["content.js"]
+        "js": ["showdown.min.js", "content.js"]
       }
     ]
   }
